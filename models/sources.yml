@@ -1,0 +1,58 @@
+version: 2
+
+sources:
+  - name: environmental_data
+    database: WEATHER__ENVIRONMENTAL_ESSENTIALS
+    schema: CYBERSYN
+    tables:
+      - name: CARBON_CREDIT_PURCHASE_ATTRIBUTES
+        description: "Attributes of carbon credit purchases."
+
+      - name: CARBON_CREDIT_PURCHASE_TIMESERIES
+        description: "Timeseries data for carbon credit purchases."
+
+      - name: CARBON_INTENSITY_ATTRIBUTES
+        description: "Attributes of carbon intensity measurements."
+
+      - name: CARBON_INTENSITY_TIMESERIES
+        description: "Timeseries data for carbon intensity measurements."
+
+      - name: CYBERSYN_DATA_CATALOG
+        description: "Catalog of Cybersyn data tables."
+
+      - name: FEMA_DISASTER_DECLARATION_AREAS_INDEX
+        description: "Index of FEMA disaster declaration areas."
+
+      - name: FEMA_DISASTER_DECLARATION_INDEX
+        description: "Index of FEMA disaster declarations."
+
+      - name: FEMA_MISSION_ASSIGNMENT_INDEX
+        description: "Index of FEMA mission assignments."
+
+      - name: FEMA_NATIONAL_FLOOD_INSURANCE_PROGRAM_CLAIM_INDEX
+        description: "Index of National Flood Insurance Program claims."
+
+      - name: FEMA_NATIONAL_FLOOD_INSURANCE_PROGRAM_POLICY_INDEX
+        description: "Index of National Flood Insurance Program policies."
+
+      - name: FEMA_REGION_INDEX
+        description: "Index of FEMA regions."
+
+      - name: GEOGRAPHY_INDEX
+        description: "Index of geographical data."
+
+      - name: GEOGRAPHY_RELATIONSHIPS
+        description: "Relationships between different geographical entities."
+
+      - name: NOAA_WEATHER_METRICS_ATTRIBUTES
+        description: "Attributes of NOAA weather metrics."
+
+      - name: NOAA_WEATHER_METRICS_TIMESERIES
+        description: "Timeseries data for NOAA weather metrics."
+
+      - name: NOAA_WEATHER_STATION_INDEX
+        description: "Index of NOAA weather stations."
+        
+  - name: geography_data
+    tables:
+      - name: GEOGRAPHY_INDEX

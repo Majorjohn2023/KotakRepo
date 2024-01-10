@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: total_carbon_credits_annually
+    description: "Total carbon credits purchased annually."
+    columns:
+      - name: year
+        description: "The year of the carbon credit purchases."
+        tests:
+          - not_null
+          - unique
+
+      - name: total_credits_purchased
+        description: "The total amount of carbon credits purchased in the year."
+        tests:
+          - not_null
+
+
+# awfa
