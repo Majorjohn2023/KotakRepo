@@ -1,9 +1,9 @@
 -- models/analysis/total_carbon_credits_annually.sql
 
 {{ config(materialized='view') }}
-{{ config(
-    tags=["daily", "analytics"]
-) }}
+-- {{ config(
+--     tags=["daily", "analytics"]
+-- ) }}
 
 select
     DATE_TRUNC('year', DATE) as year,
