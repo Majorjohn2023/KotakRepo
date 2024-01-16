@@ -1,6 +1,9 @@
 -- models/carbon/carbon_credit_purchase_attributes.sql
 
 {{ config(materialized='view') }}
+{{ config(
+    tags=["daily", "analytics"]
+) }}
 
 select
     VARIABLE,

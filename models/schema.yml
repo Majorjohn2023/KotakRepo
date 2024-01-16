@@ -1,0 +1,28 @@
+version: 2
+
+models:
+  - name: carbon_credit_purchase_attributes
+    description: "A view of carbon credit purchase attributes from environmental data."
+    tags:
+      - daily
+      - analytics
+    columns:
+      - name: VARIABLE
+        description: "Description of VARIABLE"
+        tests:
+          - not_null
+
+      - name: GROUPING_TYPE
+        description: "Description of GROUPING_TYPE"
+        tests:
+          - not_null
+
+      - name: ENTITY
+        description: "Description of ENTITY"
+        tests:
+          - not_null
+
+      - name: MEASURE_TYPE
+        description: "Description of MEASURE_TYPE"
+        tests:
+          - not_null
