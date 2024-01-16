@@ -1,6 +1,12 @@
 -- models/carbon/carbon_credit_purchase_timeseries.sql
 
-{{ config(materialized='view') }}
+{{
+    config(
+        materialized = 'views'
+        ,tags = ["daily", "audit_trails"]
+    )
+}}
+
 
 select
     VARIABLE,
