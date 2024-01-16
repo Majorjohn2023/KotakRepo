@@ -1,6 +1,9 @@
-{{ config(materialized='view') }}
-{{ config(
-    tags=["daily", "analytics"]
-) }}
+{{
+    config(
+        materialized = 'view', 
+        tags = ["daily"]
+    )
+}}
+
 
 select 1

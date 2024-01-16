@@ -1,15 +1,15 @@
--- models/carbon_intensity_timeseries.sql.Just checking
+models/carbon_intensity_timeseries.sql.Just checking
 
--- {{ config(materialized='view') }}
+{{ config(materialized='view') }}
 
--- select
---     DATE,
---     VARIABLE,
---     GEO_ID,
---     avg(VALUE) as average_intensity,
---     sum(VALUE) as total_intensity
--- from {{ source('environmental_data', 'CARBON_INTENSITY_TIMESERIES') }}
--- group by DATE, VARIABLE, GEO_ID
+select
+    DATE,
+    VARIABLE,
+    GEO_ID,
+    avg(VALUE) as average_intensity,
+    sum(VALUE) as total_intensity
+from {{ source('environmental_data', 'CARBON_INTENSITY_TIMESERIES') }}
+group by DATE, VARIABLE, GEO_ID
 
 
 
