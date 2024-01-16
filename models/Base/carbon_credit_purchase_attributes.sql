@@ -1,7 +1,7 @@
 {{
     config(
-        materialized = 'view'
-        ,tags = ["daily", "audit_trails"]
+        materialized = 'view', 
+        tags = ["daily"]
     )
 }}
 
