@@ -1,4 +1,4 @@
--- models/analysis/total_carbon_credits_annually.sql
+models/analysis/total_carbon_credits_annually.sql
 
 {{ config(materialized='view') }}
 select
