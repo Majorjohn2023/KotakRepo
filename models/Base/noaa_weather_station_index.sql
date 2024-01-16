@@ -1,5 +1,3 @@
--- -- models/noaa_weather_station_index.sql
-
 -- {{ config(materialized='view') }}
 
 -- select
@@ -11,5 +9,3 @@
 --     LONGITUDE,
 --     ELEVATION
 -- from {{ source('environmental_data', 'NOAA_WEATHER_STATION_INDEX') }}
-
-

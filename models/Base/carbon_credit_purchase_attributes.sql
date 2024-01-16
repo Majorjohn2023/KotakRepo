@@ -1,7 +1,7 @@
 -- models/carbon/carbon_credit_purchase_attributes.sql
 {{
     config(
-        materialized = 'views'
+        materialized = 'view'
         ,tags = ["daily", "audit_trails"]
     )
 }}
