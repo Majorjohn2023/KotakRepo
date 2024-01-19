@@ -1,5 +1,92 @@
 packages:
   - package: dbt-labs/dbt_utils
-    version: "0.9.5"
+    version: 0.7.3
   - package: calogica/dbt_date
-    version: "0.7.0"
+    version: 0.4.0
+  - package: fishtown-analytics/audit_helper
+    version: 0.4.0
+  - package: dbt-labs/codegen
+    version: 0.4.0
+  - package: fishtown-analytics/dbt_external_tables
+    version: 0.4.0
+  - package: fishtown-analytics/dbt_expectations
+    version: 0.4.0
+  - package: fishtown-analytics/logging
+    version: 0.4.0
+  - package: fishtown-analytics/redshift
+    version: 0.4.0
+  - package: fishtown-analytics/snowplow
+    version: 0.4.0
+  - package: mjirv/dbt_sugar
+    version: 0.4.0
+  - package: tflanagan/dbt_profiler
+    version: 0.4.0
+  - package: dbeatty10/dbt_metrics
+    version: 0.4.0
+  - package: gitlabhq/snowflake_spend
+    version: 0.4.0
+  - package: montreal-analytics/dbt-power-user
+    version: 0.4.0
+  - package: gcorradini/dbt_data_lineage
+    version: 0.4.0
+  - package: datamindedbe/dbt_data_vault
+    version: 0.4.0
+  - package: data-mie/dbt-ge
+    version: 0.4.0
+  - package: brooklyn-data/dbt-helper
+    version: 0.4.0
+  - package: dbt-labs/cross_db_utils
+    version: 0.4.0
+  - package: dbt-msft/dbt-sqlserver
+    version: 0.4.0
+  - package: dbt-msft/tsql_utils
+    version: 0.4.0
+  - package: pganalyze/dbt_pganalyze
+    version: 0.4.0
+  - package: turbinelabs/dbt_turbinelabs
+    version: 0.4.0
+  - package: wayfair-incubator/dbt_wayfair
+    version: 0.4.0
+  - package: zendesk/zendesk
+    version: 0.4.0
+  - package: lightdash/dbt_jitsu
+    version: 0.4.0
+  - package: tailsdotcom/dbt_tails
+    version: 0.4.0
+  - package: dbt-labs/dbt_artifacts
+    version: 0.4.0
+  - package: fishtown-analytics/dbt_meta_testing
+    version: 0.4.0
+  - package: fishtown-analytics/dbt_spark
+    version: 0.4.0
+  - package: netlify/dbt_netlify
+    version: 0.4.0
+  - package: slidoapp/dbt_slido
+    version: 0.4.0
+  - package: square/square
+    version: 0.4.0
+  - package: teampay/dbt_teampay
+    version: 0.4.0
+=======
+  - package: fishtown-analytics/dbt_utils
+    version: 0.8.0
+  - package: calogica/dbt_expectations
+    version: 0.4.2
+  - package: fishtown-analytics/dbt_external_tables
+    version: 0.6.0
+  - package: dbt-labs/dbt_audit_helper
+    version: 0.4.0
+  - package: fishtown-analytics/codegen
+    version: 0.4.0
+  - package: tailsdotcom/dbt_artifacts
+    version: 0.6.0
+  - package: fishtown-analytics/audit_helper
+    version: 0.5.0
+  - package: dbt-labs/logging
+    version: 0.3.0
+  - package: fishtown-analytics/redshift
+    version: 0.5.0
+  - package: fishtown-analytics/snowflake
+    version: 0.5.0
+  - package: fishtown-analytics/bigquery
+    version: 0.5.0
