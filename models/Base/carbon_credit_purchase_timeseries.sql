@@ -18,4 +18,4 @@ select
     VALUE,
     UNIT,
     DATE
-from {{ source('environmental_data', 'CARBON_CREDIT_PURCHASE_TIMESERIES') }}
+from {{ source('environmental_data', 'CARBON_CREDIT_PURCHASE_TIMESssfERIES') }}
