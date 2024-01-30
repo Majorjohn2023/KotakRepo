@@ -12,3 +12,6 @@ select
 from {{ ref('fema_disaster_declaration_index') }} d
 join {{ ref('fema_disaster_declaration_areas_index') }} a on d.DISASTER_ID = a.DISASTER_ID
 group by 1, 2, 3, 4, 5
+
+
+select 1 

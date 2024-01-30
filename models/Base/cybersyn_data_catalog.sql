@@ -1,6 +1,7 @@
--- models/cybersyn/cybersyn_data_catalog.sql
+{{ config(
+    tags=["finance"]
+) }}
 
-{{ config(materialized='view') }}
 
 select
     TABLE_NAME,
@@ -16,4 +17,4 @@ select
     LICENSE_URL,
     CREATED_DATE,
     LAST_UPDATED_TIMESTAMP
-from {{ source('environmental_data', 'CYBERSYN_DATA_CATALOG') }}
+from {{ source('environmental_data', 'CYBERSYN_DATA_CATALOG') }};

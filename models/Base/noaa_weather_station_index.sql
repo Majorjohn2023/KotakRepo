@@ -1,5 +1,3 @@
--- models/noaa_weather_station_index.sql
-
 {{ config(materialized='view') }}
 
 select

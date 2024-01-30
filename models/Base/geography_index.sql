@@ -11,4 +11,4 @@ select
     ISO_ALPHA3,
     ISO_NUMERIC_CODE,
     ISO_3166_2_CODE
-from {{ source('environmental_data', 'GEOGRAPHY_INDEX') }}
+from {{ source('environmental_data', 'GEOGRAPHY_INDEX') }};
