@@ -7,7 +7,7 @@
 
 select
     VARIABLE,
-    VARIABLE_NAME,
+    VARIABLE_NAME
     UNIT,
     FREQUENCY
 from {{ source('environmental_data', 'CARBON_INTENSITY_ATTRIBUTES') }}
