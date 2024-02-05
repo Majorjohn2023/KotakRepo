@@ -6,7 +6,7 @@ sources:
     schema: CYBERSYN
     tables:
       - name: CARBON_CREDIT_PURCHASE_ATTRIBUTES
-        description: "Attributes of carbon credit purchases."
+        description: "Attributes of carbon credit purchases.This is just testing"
 
       - name: CARBON_CREDIT_PURCHASE_TIMESERIES
         description: "Timeseries data for carbon credit purchases."
