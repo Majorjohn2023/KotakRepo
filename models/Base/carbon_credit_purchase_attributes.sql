@@ -12,3 +12,5 @@ select
     ENTITY,
     MEASURE_TYPE
 from {{ source('environmental_data', 'CARBON_CREDIT_PURCHASE_ATTRIBUTES') }}
+
+-- Anurag Testing
