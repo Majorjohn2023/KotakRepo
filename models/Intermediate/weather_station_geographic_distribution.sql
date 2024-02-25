@@ -8,3 +8,5 @@ select
 from {{ ref('noaa_weather_station_index') }} w
 join {{ ref('geography_index') }} g on w.COUNTRY_GEO_ID = g.GEO_ID
 group by g.GEO_NAME
+
+-- asdfadsdvv
